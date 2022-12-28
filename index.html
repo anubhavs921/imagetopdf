@@ -1,0 +1,969 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en" class="home" id="top">
+<head>
+<script>
+    window["debugLog"] = window["debugLog"] || [];
+    window.logJsError = function(message) {
+        if (window["debugLog"]) {
+            message += "\n================\n" + window["debugLog"].join("\n") + "\n================\n";
+        }
+        let a = new XMLHttpRequest();
+        a.open("POST", '/error/js', true);
+        a.setRequestHeader('Content-Type', 'application/json');
+        let m = JSON.stringify({ message: message });
+        a.send(m);
+    };
+      if (window.navigator.userAgent.indexOf('MSIE ') <= 0) {
+            window.onerror = function(msg, url, lineNo, columnNo, error) {
+                // IE doesnt support string interpolation
+                //window.logJsError(`${msg}\n${url}\n${JSON.stringify(error)}\nLine: ${lineNo}\nCol:${columnNo}`);
+                window.logJsError(msg + '\n' + url + '\n' + JSON.stringify(error) + '\nLine: ' + lineNo + '\nCol:' + columnNo);
+                return false;
+            };
+      }
+</script>
+<script async defer importance="high" id="user-data" src="/user/data.js"></script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W728HV9');</script>
+
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+<link rel="apple-touch-icon" sizes="180x180" href="/Favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/Favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/Favicons/favicon-16x16.png">
+<link rel="mask-icon" href="/Favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/Favicons/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="Free PDF Convert">
+<meta name="application-name" content="Free PDF Convert">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-config" content="/Favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<title>Best JPG to PDF Converter: Convert JPEG Images Online (FREE)</title>
+<meta name="Description" content="Easily convert JPG, PNG, GIF, BMP and TIFF images to PDF using web-based online tool." />
+<meta property="og:title" content="Best JPG to PDF Converter: Convert JPEG Images Online (FREE)" />
+<meta property="og:description" content="Easily convert JPG, PNG, GIF, BMP and TIFF images to PDF using web-based online tool." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.freepdfconvert.com/img/social-banner.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Best JPG to PDF Converter: Convert JPEG Images Online (FREE)" />
+<meta name="twitter:description" content="Easily convert JPG, PNG, GIF, BMP and TIFF images to PDF using web-based online tool." />
+<meta name="twitter:image" content="https://www.freepdfconvert.com/img/social-banner.png" />
+<link rel="manifest" href="/Favicons/manifest.json">
+<link rel="canonical" href="https://www.freepdfconvert.com/jpg-to-pdf" />
+<meta property="og:url" content="https://www.freepdfconvert.com/jpg-to-pdf" />
+<link rel="stylesheet" href="/css/main.css?v=b7-WdY9AZJ6KdyJQ7o1GGAi4Pu_P_v2IA2SQrZ9p4VQ" type="text/css" />
+<script>
+    window.___gcfg = {
+        // TODO: lang: 'en-US',
+        parsetags: 'explicit'
+    };
+</script>
+<script async defer id="gapi" src="https://apis.google.com/js/platform.js"></script>
+</head>
+<body class="converter ltr l-jpg-to-pdf auth-unknown" data-converter-name="JPG to PDF" data-cara-domain-name="//api.freepdfconvert.com" data-cara-convert-path="/convert/" data-cara-api-key="595883227" data-canconvert-info-path="/info/canconvert/{{srcFormat}}/to/{{dstFormat}}" data-default-converter="delete" data-number-group-separator="," data-app-version="b" data-google-clientid="723671985355-a01rjio9rfdip1sereboqg9jiiato6pk.apps.googleusercontent.com" data-google-developerkey="AIzaSyAf9v_ShXktnB1Janv7qncNvCRnUo60Nkg" data-dropbox-app-key="k0srfi0yvpx25dw" data-paddle-vendorid="16513" data-paddle-prefix="" data-auth-status-path="/user/data.js" data-sign-in-path="/a/si" data-forgot-password-path="/a/fp" data-token-converted-path="/user/converted" data-remote-file-info-path="/remote-file-info" data-conversion-info-path="/user/conversion-info" data-checkout-exist-path="/checkout/exist" data-checkout-complete-path="/checkout/complete" data-js-label-please-wait="Please wait # minutes to convert the file or Sign Up and convert immediately." data-js-label-checkout-complete="Thank you for your order. You have now signed in and all features are activated. Start converting your first file..." data-js-label-processing="We are processing your order right now, please do not close this window or click the Back button on your browser." data-js-label-unable-to-add="Unable to add ${file} file" data-js-label-unable-to-access="Unable to access remote file: ${url}" data-js-label-conversion-failed="Failed to convert" data-js-label-unable-to-upload="Unable to upload file for conversion" data-js-label-unable-to-find-converter="Unable to find matching converter in transformation step" data-js-label-suspended="Service suspended, membership expired." data-js-label-enter-file-location="Enter file location" data-js-label-rotate-all="Rotate all" data-js-label-rotate-selected="Rotate selected" data-js-label-multifile-violation="Only one file can be selected at a time. Multiple file conversion is supported only for members." data-js-label-not-converted="No files converted">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W728HV9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div class="global-progress brand-color"></div>
+<header class="layout-header">
+<nav class="layout-header-nav">
+<div class="logo-wrapper">
+<a class="logo img-logo" href="/">
+<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path class="brand-color" fill-rule="evenodd" clip-rule="evenodd" d="M0 3.58537C0 1.60522 1.57657 0 3.52136 0H13.5824C15.5272 0 17.1037 1.60522 17.1037 3.58537V13.3171L14.0854 10.2439V3.58537C14.0854 3.30249 13.8602 3.07317 13.5824 3.07317H3.52136C3.24353 3.07317 3.01831 3.30249 3.01831 3.58537V17.4146C3.01831 17.6975 3.24353 17.9268 3.52136 17.9268H8.55187H13.5824C13.8602 17.9268 14.0854 17.6975 14.0854 17.4146V14.9779L20 21H13.5824H8.55187H3.52136C1.57657 21 0 19.3948 0 17.4146V3.58537Z" fill="#E74C3C" />
+</svg>
+<span class="logo-text">PDF Converter</span>
+</a>
+</div>
+<div class="page-title">
+<h1><span class="converter-icon"></span><span class="js-main-title">Online JPG to PDF Converter</span></h1>
+</div>
+<div class="header-links">
+<a class="all-tools js-toggle-nav" href="javascript:void(0)">
+<span class="all-tools-icon"></span>
+All tools
+</a>
+<div class="user-menu">
+<a href="/a" class="menu-item profile-link show-auth">
+Account
+</a>
+<a href="/a/si" class="menu-item show-unauth">Sign In</a>
+<a href="/membership" class="menu-item show-unauth sign-up btn btn-outline brand-border brand-text">Sign Up</a>
+</div>
+</div>
+<div class="mobile-hamburger js-toggle-nav">
+</div>
+<div class="top-menu-container hidden">
+<div class="js-close-mobile-menu">
+<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><defs></defs><path stroke="#313131" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 22a10 10 0 100-20 10 10 0 000 20zM15 9l-6 6M9 9l6 6"></path></svg>
+</div>
+<div class="hide-desktop show-unauth">
+<a class="btn btn-outline brand-border brand-text" href="/membership">
+Sign Up
+</a>
+<a href="/a/si">
+Sign In
+</a>
+</div>
+<div class="hide-desktop show-auth">
+<a class="menu-title" href="/a">
+Account
+</a>
+<a class="menu-title" href="/a/signout">
+Sign Out
+</a>
+</div>
+<div class="converter-menu">
+<div class="converter-group" tabindex="1">
+<div class="group-title" tabindex="1">Convert to PDF</div>
+<a class="group-item" href="/word-to-pdf" tabindex="1">
+<span class="img img-word-to-pdf"></span>
+<span class="menu-item-title">
+Word to PDF
+</span>
+</a>
+<a class="group-item" href="/excel-to-pdf" tabindex="1">
+<span class="img img-excel-to-pdf"></span>
+<span class="menu-item-title">
+Excel to PDF
+</span>
+</a>
+<a class="group-item" href="/ppt-to-pdf" tabindex="1">
+<span class="img img-powerpoint-to-pdf"></span>
+<span class="menu-item-title">
+PowerPoint to PDF
+</span>
+</a>
+<a class="group-item" href="/jpg-to-pdf" tabindex="1">
+<span class="img img-jpg-to-pdf"></span>
+<span class="menu-item-title">
+JPG to PDF
+</span>
+</a>
+<a class="group-item" href="/odt-to-pdf" tabindex="1">
+<span class="img img-openoffice-to-pdf"></span>
+<span class="menu-item-title">
+OpenOffice to PDF
+</span>
+</a>
+<a class="group-item" href="/epub-to-pdf" tabindex="1">
+<span class="img img-ebook-to-pdf"></span>
+<span class="menu-item-title">
+eBooks to PDF
+</span>
+</a>
+<a class="group-item" href="/pages-to-pdf" tabindex="1">
+<span class="img img-iworks-to-pdf"></span>
+<span class="menu-item-title">
+iWorks to PDF
+</span>
+</a>
+</div>
+<div class="converter-group" tabindex="1">
+<div class="group-title" tabindex="1">Convert from PDF</div>
+<a class="group-item" href="/pdf-to-word" tabindex="1">
+<span class="img img-pdf-to-word"></span>
+<span class="menu-item-title">
+PDF to Word
+</span>
+</a>
+<a class="group-item" href="/pdf-to-excel" tabindex="1">
+<span class="img img-pdf-to-excel"></span>
+<span class="menu-item-title">
+PDF to Excel
+</span>
+</a>
+<a class="group-item" href="/pdf-to-ppt" tabindex="1">
+<span class="img img-pdf-to-powerpoint"></span>
+<span class="menu-item-title">
+PDF to Powerpoint
+</span>
+</a>
+<a class="group-item" href="/pdf-to-jpg" tabindex="1">
+<span class="img img-pdf-to-jpg"></span>
+<span class="menu-item-title">
+PDF to JPG
+</span>
+</a>
+<a class="group-item" href="/pdf-to-png" tabindex="1">
+<span class="img img-pdf-to-png"></span>
+<span class="menu-item-title">
+PDF to PNG
+</span>
+</a>
+</div>
+<div class="converter-group" tabindex="1">
+<div class="group-title" tabindex="1">Merge and Split</div>
+<a class="group-item" href="/merge-pdf" tabindex="1">
+<span class="img img-pdf-merge"></span>
+<span class="menu-item-title">
+Merge PDF
+</span>
+</a>
+<a class="group-item" href="/split-pdf" tabindex="1">
+<span class="img img-pdf-split"></span>
+<span class="menu-item-title">
+Split PDF
+</span>
+</a>
+</div>
+<div class="converter-group" tabindex="1">
+<div class="group-title" tabindex="1">PDF Security</div>
+<a class="group-item" href="/protect-pdf" tabindex="1">
+<span class="img img-pdf-protect"></span>
+<span class="menu-item-title">
+Protect PDF
+</span>
+</a>
+</div>
+<div class="converter-group" tabindex="1">
+<div class="group-title" tabindex="1">PDF Tools</div>
+<a class="group-item" href="/" tabindex="1">
+<span class="img img-pdf-converter"></span>
+<span class="menu-item-title">
+PDF Converter
+</span>
+</a>
+<a class="group-item" href="/compress-pdf" tabindex="1">
+<span class="img img-pdf-compress"></span>
+<span class="menu-item-title">
+Compress PDF
+</span>
+</a>
+<a class="group-item" href="/delete-pdf-pages" tabindex="1">
+<span class="img img-pdf-delete-pages"></span>
+<span class="menu-item-title">
+Delete PDF Pages
+</span>
+</a>
+<a class="group-item" href="/rotate-pdf" tabindex="1">
+<span class="img img-rotate-pdf"></span>
+<span class="menu-item-title">
+Rotate PDF
+</span>
+</a>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<template id="js-toast">
+<div class="toast-wrapper closed">
+<div class="toast">
+<span class="icon"></span>
+<span class="content">You have canceled your account, it will be active for 30 more days</span>
+<span class="close js-close-toast">
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"><defs /><path fill="#313131" fill-rule="evenodd" d="M.284.284a.97.97 0 000 1.373l4.941 4.94-4.94 4.941a.97.97 0 101.373 1.372l4.94-4.94 4.94 4.94a.97.97 0 101.372-1.372l-4.94-4.94 4.941-4.941A.97.97 0 1011.54.284L6.598 5.225 1.657.285a.97.97 0 00-1.373 0z" clip-rule="evenodd" /></svg>
+</span>
+</div>
+</div>
+</template>
+<main class="layout-main">
+<script id="default-converter" type="application/json">{"id":"jpg-to-pdf","name":"Convert JPG to PDF","sortIndex":0,"groupSortIndex":1,"heading1":"Online JPG to PDF Converter","heading2":"Reformat a JPG, PNG, or other image to a PDF file in a few seconds.","editor":{"visible":true,"addFiles":true,"selectRange":false,"showPageNumbers":false,"showSplitButton":false,"showRotateButton":false,"showMoveButton":false,"showDeleteButton":false},"prepareRule":{"splitResult":true,"steps":[{"conditions":["default"],"useAll":false,"converters":[{"parameters":null,"sourceFormat":"jpg","destinationFormat":"pdf","bypass":false,"skipSelector":false},{"parameters":null,"sourceFormat":"jpeg","destinationFormat":"pdf","bypass":false,"skipSelector":false},{"parameters":null,"sourceFormat":"tif","destinationFormat":"pdf","bypass":false,"skipSelector":false},{"parameters":null,"sourceFormat":"png","destinationFormat":"pdf","bypass":false,"skipSelector":false},{"parameters":null,"sourceFormat":"bmp","destinationFormat":"pdf","bypass":false,"skipSelector":false},{"parameters":null,"sourceFormat":"gif","destinationFormat":"pdf","bypass":false,"skipSelector":false},{"parameters":null,"sourceFormat":"fax","destinationFormat":"pdf","bypass":false,"skipSelector":false},{"parameters":null,"sourceFormat":"ico","destinationFormat":"pdf","bypass":false,"skipSelector":false},{"parameters":null,"sourceFormat":"tiff","destinationFormat":"pdf","bypass":false,"skipSelector":false},{"parameters":null,"sourceFormat":"mdi","destinationFormat":"pdf","bypass":false,"skipSelector":false},{"parameters":null,"sourceFormat":"webp","destinationFormat":"pdf","bypass":false,"skipSelector":false},{"parameters":null,"sourceFormat":"heic","destinationFormat":"pdf","bypass":false,"skipSelector":false}]}]},"actions":{"rotate":[{"converter":{"parameters":{"pageRange":"1-2000"},"sourceFormat":"pdf","destinationFormat":"rotate","bypass":false,"skipSelector":false},"inputParams":["RotatePage"]}],"split":[],"thumbnail":[{"converter":{"parameters":{"pageRange":"1","imageResolution":"25"},"sourceFormat":"pdf","destinationFormat":"thumbnail","bypass":false,"skipSelector":false},"inputParams":null},{"converter":{"parameters":{"imageResolutionH":"25","imageResolutionV":"25"},"sourceFormat":"jpg","destinationFormat":"jpg","bypass":false,"skipSelector":false},"inputParams":null},{"converter":{"parameters":{"imageResolutionH":"25","imageResolutionV":"25"},"sourceFormat":"png","destinationFormat":"png","bypass":false,"skipSelector":false},"inputParams":null}]},"postRule":{"splitResult":false,"steps":[{"conditions":["default"],"useAll":true,"converters":[{"parameters":null,"sourceFormat":"pdf","destinationFormat":"merge","bypass":false,"skipSelector":false}]}]},"buttonLabel":"Create PDF","buttonIconTo":"img-file-pdf","parameterPartial":"_ImageParam","parameter":"\n\u003cdiv class=\u0022image-options\u0022\u003e\n\u003cdiv class=\u0022grid\u0022\u003e\n    \u003cdiv class=\u0022radio-lozenge selected\u0022\u003e\n        \u003cdiv class=\u0022radio\u0022\u003e\n    \u003csvg width=\u002224\u0022 height=\u002224\u0022 class=\u0022hide-selected\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022 fill=\u0022none\u0022 viewBox=\u00220 0 24 25\u0022\u003e\n        \u003cdefs/\u003e\u003ccircle cx=\u002212\u0022 cy=\u002212.04\u0022 r=\u002211\u0022 fill=\u0022#fff\u0022 stroke=\u0022#313131\u0022 stroke-width=\u00222\u0022/\u003e\n    \u003c/svg\u003e\n    \u003csvg width=\u002224\u0022 height=\u002224\u0022 class=\u0022show-selected\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022 fill=\u0022none\u0022 viewBox=\u00220 0 24 25\u0022\u003e\n        \u003cdefs/\u003e\u003ccircle cx=\u002212\u0022 cy=\u002212.04\u0022 r=\u002211\u0022 fill=\u0022#fff\u0022 stroke-width=\u00222\u0022/\u003e\u003ccircle class=\u0022fill\u0022 cx=\u002212\u0022 cy=\u002212\u0022 r=\u00226\u0022/\u003e\n    \u003c/svg\u003e\n\u003c/div\u003e\n        \u003cdiv class=\u0022content\u0022\u003e\n            \u003ch2\u003e\n                Merge images to one PDF\n            \u003c/h2\u003e\n            \u003csmall\u003e\n                You will get one PDF file\n            \u003c/small\u003e\n        \u003c/div\u003e\n        \u003cinput type=\u0022radio\u0022 id=\u0022radioBtnMerge\u0022 name=\u0022merge\u0022 value=\u0022true\u0022 checked /\u003e\n    \u003c/div\u003e\n    \u003cdiv class=\u0022radio-lozenge\u0022\u003e\n        \u003cdiv class=\u0022radio\u0022\u003e\n    \u003csvg width=\u002224\u0022 height=\u002224\u0022 class=\u0022hide-selected\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022 fill=\u0022none\u0022 viewBox=\u00220 0 24 25\u0022\u003e\n        \u003cdefs/\u003e\u003ccircle cx=\u002212\u0022 cy=\u002212.04\u0022 r=\u002211\u0022 fill=\u0022#fff\u0022 stroke=\u0022#313131\u0022 stroke-width=\u00222\u0022/\u003e\n    \u003c/svg\u003e\n    \u003csvg width=\u002224\u0022 height=\u002224\u0022 class=\u0022show-selected\u0022 xmlns=\u0022http://www.w3.org/2000/svg\u0022 fill=\u0022none\u0022 viewBox=\u00220 0 24 25\u0022\u003e\n        \u003cdefs/\u003e\u003ccircle cx=\u002212\u0022 cy=\u002212.04\u0022 r=\u002211\u0022 fill=\u0022#fff\u0022 stroke-width=\u00222\u0022/\u003e\u003ccircle class=\u0022fill\u0022 cx=\u002212\u0022 cy=\u002212\u0022 r=\u00226\u0022/\u003e\n    \u003c/svg\u003e\n\u003c/div\u003e\n        \u003cdiv class=\u0022content\u0022\u003e\n            \u003ch2\u003e\n                Create separated PDF files\n            \u003c/h2\u003e\n            \u003csmall\u003e\n                You will get each image in separate PDF file\n            \u003c/small\u003e\n        \u003c/div\u003e\n            \u003cinput type=\u0022radio\u0022 id=\u0022radioBtnSplit\u0022 name=\u0022merge\u0022 value=\u0022false\u0022 /\u003e\n    \u003c/div\u003e\n \n    \u003cdiv class=\u0022compress-btn\u0022\u003e\n        {{convert-btn}}\n    \u003c/div\u003e\n\u003c/div\u003e\n\u003c/div\u003e\n\n\u003cscript\u003e\n    window[\u0022managerCustomAction\u0022] = function (dom, context) {\n        if ($(\u0022#radioBtnSplit\u0022).prop(\u0022checked\u0022)) context.convMeta.postRule.steps.pop();\n    }\n    jQuery(document).ready(function() {\n       jQuery(\u0027.radio-lozenge\u0027).click(function() {\n           if(!$(this).hasClass(\u0027selected\u0027)) {\n               jQuery(\u0027.radio-lozenge\u0027).removeClass(\u0027selected\u0027);\n               $(this).addClass(\u0027selected\u0027);\n               $(this).find(\u0027input[type=radio]\u0027).click(); \n          }\n       }); \n    });\n\u003c/script\u003e","cssClass":"jpg-to-pdf","showAddFiles":true,"showSelectRange":false,"fileInfo":null,"filter":[],"showPageNumbers":false,"showDeleteButton":true,"showMoveButton":true,"showRotateButton":true,"showSplitButton":false}</script>
+<div class="layout-container work-area-wrapper colored mobile-no-gutters">
+<div class="work-area js-show-page-titles ">
+<div class="work-area-container js-dropzone">
+<div class="sliderContainer">
+<span class="zoom-out brand-text-mobile noselect">-</span>
+<input type="range" value="1" min="0" max="3" id="slider" />
+<span class="zoom-in brand-text-mobile noselect">+</span>
+</div>
+<div class="start-over" onclick="location.href = window.location.href.split('#')[0]">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 21 8"><defs /><path fill="#000" fill-rule="evenodd" d="M19.64 2.92a.92.92 0 110 1.84H3.62L4.85 6a.92.92 0 11-1.3 1.3L.84 4.6a.92.92 0 01-.27-.73.92.92 0 01.27-.71L3.54.44a.92.92 0 011.31 1.3L3.7 2.93h15.95z" clip-rule="evenodd" /></svg>
+<span class="hide-mobile">
+Start over
+</span>
+</div>
+<div class="start-panel file-upload-shrink">
+<section class="file-input-container">
+<label class="upload-area">
+<div class="dashes">
+<h2 class="main-subheader">Reformat a JPG, PNG, or other image to a PDF file in a few seconds.</h2>
+<div class="brand-btn-container brand-color">
+<div class="btn-wrapper upload-btn">
+<div class="button-icon" title="Add more files">
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" fill="none">
+<defs /><path fill="#fff" fill-rule="evenodd" d="M5.6.6c-.7 0-1.3.5-1.3 1.2v2.5H1.8a1.3 1.3 0 000 2.5h2.5v2.5a1.3 1.3 0 102.5 0V6.8h2.5a1.2 1.2 0 100-2.5H6.8V1.8c0-.7-.5-1.2-1.2-1.2z" clip-rule="evenodd" />
+</svg>
+</div>
+<span class="btn-label">
+Choose Image file
+</span>
+</div>
+<div class="drop-btn upload-drop-btn">
+<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.14432 5.45623C5.49599 5.7136 5.97384 5.7136 6.32551 5.45623L10.3255 2.52882C11.1058 1.95775 10.7018 0.721851 9.73486 0.721851H1.73496C0.768008 0.721851 0.364071 1.95775 1.14438 2.52882L5.14432 5.45623Z" fill="white" />
+</svg>
+<div class="btn-menu-dropdown hidden">
+<div class="menu-dropdown-item js-upload-file hide-mobile">
+<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 26 26" fill="none"><defs /><path fill="#313131" fill-rule="evenodd" d="M11.938 25.03a.97.97 0 001.94 0V8.2l1.296 1.296a.97.97 0 101.372-1.371l-2.849-2.85a.968.968 0 00-.754-.281.968.968 0 00-.753.282L9.34 8.125a.97.97 0 101.373 1.371l1.225-1.225V25.03zm13.084-10.67c.52 0 .943-.422.943-.942V5.875A5.875 5.875 0 0020.09 0H5.875A5.875 5.875 0 000 5.875v7.543a.943.943 0 001.886 0V5.875a3.989 3.989 0 013.989-3.99H20.09a3.99 3.99 0 013.99 3.99v7.543c0 .52.421.943.942.943z" clip-rule="evenodd" /></svg>
+<span>
+Upload file
+</span>
+</div>
+<div class="google-picker-btn menu-dropdown-item">
+<svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)" fill="#000">
+<path d="M10.1.97H5.92a.47.47 0 00-.4.7l4.47 7.74h5.27L10.5 1.2a.47.47 0 00-.4-.24zM4.81 2.37l-4.75 8.2a.47.47 0 000 .47l2.02 3.75c.08.14.24.24.4.24h.01c.17 0 .33-.09.41-.23l4.55-7.87L4.8 2.37zM15.93 10.57a.47.47 0 00-.4-.23H6.58l-2.7 4.7h9.63c.17 0 .33-.1.4-.25l2.03-3.75a.47.47 0 000-.47z" />
+</g>
+<defs>
+<clipPath id="clip0">
+<path fill="#fff" d="M0 0h16v16H0z" />
+</clipPath>
+</defs>
+</svg>
+<span>
+Google Drive
+</span>
+</div>
+<div class="dropbox-choose-btn menu-dropdown-item">
+<svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 .09L0 3.02l4 2.93 4-2.93L4 .09zM4 5.95L0 8.9l4 2.93 4-2.93-4-2.94zM12 5.95L8 8.9l4 2.93 4-2.93-4-2.94zM12 .09L8 3.02l4 2.93 4-2.93-4-2.93zM8 10.05l-4 2.93 4 2.93 4-2.93-4-2.93z" fill="#000" />
+</svg>
+<span>
+Dropbox
+</span>
+</div>
+<div class="url-input-btn menu-dropdown-item">
+<svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip1)" fill="#000">
+<path d="M14.9 1.1a3.75 3.75 0 00-5.3 0L6.46 4.23a3.79 3.79 0 000 5.3c.23.24.49.42.76.58l.57-.57c.38-.38.24-.82.24-1.13a1.9 1.9 0 01-.24-2.85l3.13-3.14a1.88 1.88 0 012.66 2.66L11.5 7.15c.06.33.42 1.11.24 2.4l.03-.01L14.9 6.4a3.75 3.75 0 000-5.3z" /><path d="M9.78 6.22a3.57 3.57 0 00-.76-.57l-.57.57c-.37.38-.24.82-.23 1.13a1.9 1.9 0 01.24 2.85c-.12.1-3.32 3.31-3.38 3.38a1.88 1.88 0 01-2.66-2.66l2.32-2.31c-.06-.33-.42-1.12-.24-2.41l-.02.02L1.1 9.6a3.75 3.75 0 005.3 5.3l3.38-3.38a3.78 3.78 0 000-5.3z" />
+</g>
+<defs>
+<clipPath id="clip1">
+<path fill="#fff" d="M0 0h16v16H0z" />
+</clipPath>
+</defs>
+</svg>
+<span>
+URL
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="drop start-panel hide-mobile">drop files here</div>
+<input class="file-upload-input" type="file" multiple>
+</div>
+</label>
+</section>
+</div>
+<form class="dialog url-input-form hidden" action="/jpg-to-pdf" method="post">
+<div class="input-group">
+<input class="url-input flex-stretch" id="url_input" type="url" placeholder="http://example.com/myfile.docx" required autofocus />
+</div>
+<div class="actions">
+<button type="submit" class="ok btn brand-color">Enter</button>
+</div>
+</form>
+<div class="converter-selector-container hidden">
+<section class="converter-selector">
+<div class="files ro" data-template-file="
+        <div class='file-item'>
+            <main class='file-item-main'>
+                <div class='thumbnail-wrapper'>
+                    <img class='thumbnail hidden'>
+                </div>
+                <div class='placeholder'>
+                    <div class='spinner img-spinner'>
+                        <svg width='50' height='42' fill='none' xmlns='http://www.w3.org/2000/svg'><path class='brand-color' fill-rule='evenodd' clip-rule='evenodd' d='M22.2 1.53C22.2.68 22.9 0 23.74 0A21.97 21.97 0 0145.7 21.23l1.7-1.7a1.53 1.53 0 012.16 2.16l-4.48 4.48c-.33.33-.76.48-1.19.45-.43.03-.86-.12-1.19-.45l-4.48-4.48a1.53 1.53 0 012.16-2.16l2.28 2.28A18.92 18.92 0 0023.73 3.05c-.84 0-1.52-.68-1.52-1.52zm5.6 38.25c0 .84-.69 1.53-1.53 1.53A21.97 21.97 0 014.3 20.08l-1.7 1.7a1.53 1.53 0 11-2.16-2.16l4.48-4.49c.33-.32.76-.47 1.19-.44.43-.03.86.12 1.19.44l4.48 4.49a1.53 1.53 0 01-2.16 2.16L7.35 19.5a18.92 18.92 0 0018.92 18.75c.84 0 1.52.68 1.52 1.53z' fill='#E74C3C'/></svg>
+                    </div>
+                </div>
+            </main>
+            <footer class='file-item-footer'>
+                <div class='file-name'></div>
+            </footer>
+        </div>
+        ">
+</div>
+<div class="sticky-panel converter-panel-container hidden">
+<div class="menubottom-container converter-panel">
+<h2 class="subtitle">Select converter:</h2>
+<div class="converters menu-dropdown converter-menu bottom" data-template-btn="<a class='converter-btn {{class}} img-{{class}}' data-id='{{id}}'><span>{{name}}</span></a>"></div>
+</div>
+</div>
+</section>
+</div>
+<section class="manager-container hidden">
+<div class="files" data-template-file="
+            <section class='file-item draggable' title='{{name}}'>
+                <div class='file-item-wrapper'>
+                <header class='file-item-header'>
+                 <div class='controls'>
+                         <div class='remove control-item noselect ' title='Remove'>
+                            <svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' viewBox='0 0 9 9'><defs/><path fill='#888' fill-rule='evenodd' d='M.2.2a.66.66 0 000 .93L3.55 4.5.2 7.86a.66.66 0 10.94.94L4.5 5.44 7.86 8.8a.66.66 0 10.94-.94L5.44 4.5 8.8 1.13a.66.66 0 00-.94-.94L4.5 3.56 1.13.2a.66.66 0 00-.94 0z' clip-rule='evenodd'/></svg>
+                        </div>
+                         <div class='rotate control-item noselect ' title='Rotate'>
+                        <svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='none' viewBox='0 0 27 24'><defs/><path fill='#888' fill-rule='evenodd' d='M2.35 12a8.7 8.7 0 0117.4-.17l-2.87-2.87a1.18 1.18 0 00-1.66 1.67l4.51 4.51c.2.2.47.32.75.34.37.08.78-.02 1.08-.31l4.54-4.54a1.18 1.18 0 00-1.67-1.67l-2.35 2.36a11.05 11.05 0 10-11.03 11.73 1.18 1.18 0 000-2.35 8.7 8.7 0 01-8.7-8.7z' clip-rule='evenodd'/></svg>
+                     </div>
+                    <div class='split split-file-btn control-item noselect hidden' title='Split'>
+                        <svg xmlns='http://www.w3.org/2000/svg' width='12' height='16' viewBox='0 0 512 512'><defs/><path fill='#888' d='M511.29 94.23L417.05 0l-94.23 94.23 28.27 28.27 45.97-45.97v80.64c0 29.15-12.63 56.82-34.66 75.92l-78.3 67.87a143.14 143.14 0 00-28.62 33.9 136.71 136.71 0 00-28.1-33.73l-78.5-68.04a100.42 100.42 0 01-34.66-75.92V76.53l45.98 45.97 28.26-28.27L94.23 0 0 94.23l28.27 28.27 45.97-45.97v80.64c0 40.75 17.66 79.43 48.46 106.13l78.49 68.04c21.48 18.62 33.86 46.16 33.96 75.49V512h39.98V407.09c0-28.88 12.82-56.55 35.16-75.92l78.3-67.87a140.37 140.37 0 0048.45-106.13V76.53l45.98 45.97zm0 0'/></svg>
+                    </div>
+                        <div class='move control-item noselect ' title='Drag and drop to reorder'>
+                            <svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='none' viewBox='0 0 12 12'><defs/><path fill='#888' fill-rule='evenodd' d='M7.17 9.64l-.64.64V6.5h3.79l-.68.68a.5.5 0 10.72.72l1.5-1.5A.5.5 0 0012 6a.5.5 0 00-.15-.4l-1.5-1.49a.5.5 0 00-.71.72l.64.64H6.53V1.72l.64.64a.5.5 0 00.72-.72L6.39.14A.5.5 0 006 0a.5.5 0 00-.4.15l-1.49 1.5a.5.5 0 10.72.71l.68-.68v3.8h-3.8l.65-.65a.5.5 0 00-.72-.72l-1.5 1.5A.5.5 0 000 6a.5.5 0 00.15.4l1.5 1.49a.5.5 0 10.71-.72l-.68-.68h3.83v3.83l-.68-.68a.5.5 0 00-.72.72l1.5 1.5c.1.1.25.15.39.14a.5.5 0 00.4-.15l1.49-1.5a.5.5 0 10-.72-.71z' clip-rule='evenodd'/></svg>
+                        </div>
+                 </div>
+                </header>
+                <main class='file-item-main'>
+                    <div class='thumbnail-wrapper'>
+                        <img class='thumbnail rotatable cursor-move hidden'>
+                    </div>
+                    <div class='placeholder rotatable img-file rotatable cursor-move hidden'></div>
+                    <div class='spinner img-spinner'>
+                        <svg width='50' height='42' fill='none' xmlns='http://www.w3.org/2000/svg'><path class='brand-color' fill-rule='evenodd' clip-rule='evenodd' d='M22.2 1.53C22.2.68 22.9 0 23.74 0A21.97 21.97 0 0145.7 21.23l1.7-1.7a1.53 1.53 0 012.16 2.16l-4.48 4.48c-.33.33-.76.48-1.19.45-.43.03-.86-.12-1.19-.45l-4.48-4.48a1.53 1.53 0 012.16-2.16l2.28 2.28A18.92 18.92 0 0023.73 3.05c-.84 0-1.52-.68-1.52-1.52zm5.6 38.25c0 .84-.69 1.53-1.53 1.53A21.97 21.97 0 014.3 20.08l-1.7 1.7a1.53 1.53 0 11-2.16-2.16l4.48-4.49c.33-.32.76-.47 1.19-.44.43-.03.86.12 1.19.44l4.48 4.49a1.53 1.53 0 01-2.16 2.16L7.35 19.5a18.92 18.92 0 0018.92 18.75c.84 0 1.52.68 1.52 1.53z' fill='#E74C3C'/></svg>
+                    </div>
+                </main>
+                <footer class='file-item-footer'>
+                    <div class='file-name'>{{name}}</div>
+                </footer>
+                </div>
+                <div class='converter-action-main'></div>
+            </section>
+        " data-template-spinner="
+             <div id='{{id}}' class='job-spinner fixed-item'>
+                <div class='file-item'>
+                    <main class='file-item-main'>
+                     <div class='spinner img-spinner'>
+                         <svg width='50' height='42' fill='none' xmlns='http://www.w3.org/2000/svg'><path class='brand-color' fill-rule='evenodd' clip-rule='evenodd' d='M22.2 1.53C22.2.68 22.9 0 23.74 0A21.97 21.97 0 0145.7 21.23l1.7-1.7a1.53 1.53 0 012.16 2.16l-4.48 4.48c-.33.33-.76.48-1.19.45-.43.03-.86-.12-1.19-.45l-4.48-4.48a1.53 1.53 0 012.16-2.16l2.28 2.28A18.92 18.92 0 0023.73 3.05c-.84 0-1.52-.68-1.52-1.52zm5.6 38.25c0 .84-.69 1.53-1.53 1.53A21.97 21.97 0 014.3 20.08l-1.7 1.7a1.53 1.53 0 11-2.16-2.16l4.48-4.49c.33-.32.76-.47 1.19-.44.43-.03.86.12 1.19.44l4.48 4.49a1.53 1.53 0 01-2.16 2.16L7.35 19.5a18.92 18.92 0 0018.92 18.75c.84 0 1.52.68 1.52 1.53z' fill='#E74C3C'/></svg>
+                     </div>
+                    </main>
+                        <footer class='file-item-footer'>
+                        <div class='file-name show-while-uploading'>Uploading... <span class='upload-progress-perc'></span></div>
+                        <div class='file-name hide-while-uploading hidden'>Processing...</div>
+                    </footer>
+                </div>
+             </div>
+        ">
+</div>
+<div class="sticky-panel actions-container disabled hidden" data-convert-btn="<button class='brand-color proceed-btn convert-btn'>{{lable}}</button>">
+</div>
+</section>
+<section class="result-container hidden">
+<div class="files ro" data-template-file="
+        <a class='file-item' target='_blank'>
+            <main class='file-item-main'>
+                <div class='thumbnail-wrapper'>
+                    <img class='thumbnail hidden'>
+                </div>
+                 <div class='placeholder'>
+                    <div class='spinner img-spinner'>
+                        <svg width='50' height='42' fill='none' xmlns='http://www.w3.org/2000/svg'><path class='brand-color' fill-rule='evenodd' clip-rule='evenodd' d='M22.2 1.53C22.2.68 22.9 0 23.74 0A21.97 21.97 0 0145.7 21.23l1.7-1.7a1.53 1.53 0 012.16 2.16l-4.48 4.48c-.33.33-.76.48-1.19.45-.43.03-.86-.12-1.19-.45l-4.48-4.48a1.53 1.53 0 012.16-2.16l2.28 2.28A18.92 18.92 0 0023.73 3.05c-.84 0-1.52-.68-1.52-1.52zm5.6 38.25c0 .84-.69 1.53-1.53 1.53A21.97 21.97 0 014.3 20.08l-1.7 1.7a1.53 1.53 0 11-2.16-2.16l4.48-4.49c.33-.32.76-.47 1.19-.44.43-.03.86.12 1.19.44l4.48 4.49a1.53 1.53 0 01-2.16 2.16L7.35 19.5a18.92 18.92 0 0018.92 18.75c.84 0 1.52.68 1.52 1.53z' fill='#E74C3C'/></svg>
+                    </div>
+                    <div class='conversion-failure'>
+                        <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 44 44'><defs/><path class='brand-color' d='M32.29 30.66c-.16-.2-3.84-4.78-10.29-4.78a13.76 13.76 0 00-10.29 4.78l2.7 2.13c.03-.04 2.8-3.47 7.59-3.47 4.74 0 7.48 3.33 7.6 3.47h-.01l2.7-2.13z'/><path class='brand-color' d='M37.56 6.44A21.86 21.86 0 0022 0C16.12 0 10.6 2.29 6.44 6.44A21.86 21.86 0 000 22c0 5.88 2.29 11.4 6.44 15.56A21.86 21.86 0 0022 44c5.88 0 11.4-2.29 15.56-6.44A21.86 21.86 0 0044 22c0-5.88-2.29-11.4-6.44-15.56zM22 40.56A18.58 18.58 0 013.44 22 18.58 18.58 0 0122 3.44 18.58 18.58 0 0140.56 22 18.58 18.58 0 0122 40.56z'/><path class='brand-color' d='M14.44 18.23a2.75 2.75 0 100-5.5 2.75 2.75 0 000 5.5zM29.56 18.23a2.75 2.75 0 100-5.5 2.75 2.75 0 000 5.5z'/></svg>
+                    </div>
+                 </div>
+                <div class='download-icon hidden' title=Download>
+                <svg width='51' height='51' fill='none' xmlns='http://www.w3.org/2000/svg'><circle class='brand-color' cx='25.5' cy='25.5' r='25.5' fill='#E74C3C'/><path fill-rule='evenodd' clip-rule='evenodd' d='M24.94 12.97a.97.97 0 011.94 0V29.8l1.3-1.3a.97.97 0 111.37 1.38l-2.85 2.84c-.21.21-.49.3-.76.29a.97.97 0 01-.75-.29l-2.85-2.84a.97.97 0 111.37-1.38l1.23 1.23V12.97zm13.08 10.67c.52 0 .95.42.95.94v7.55A5.87 5.87 0 0133.09 38H18.87A5.87 5.87 0 0113 32.13v-7.55a.94.94 0 011.89 0v7.55c0 2.2 1.78 3.98 3.98 3.98H33.1c2.2 0 3.99-1.78 3.99-3.98v-7.55c0-.52.42-.94.94-.94z' fill='#fff'/></svg>
+                </div>
+            </main>
+            <footer class='file-item-footer'>
+                <div class='file-name'>Processing...</div>
+                <div class='file-info'></div>
+            </footer>
+        </a>
+        ">
+<div class='job-spinner fixed-item hidden'>
+<div class='file-item'>
+<main class='file-item-main'>
+<div class='spinner img-spinner'>
+<svg width='50' height='42' fill='none' xmlns='http://www.w3.org/2000/svg'><path class='brand-color' fill-rule='evenodd' clip-rule='evenodd' d='M22.2 1.53C22.2.68 22.9 0 23.74 0A21.97 21.97 0 0145.7 21.23l1.7-1.7a1.53 1.53 0 012.16 2.16l-4.48 4.48c-.33.33-.76.48-1.19.45-.43.03-.86-.12-1.19-.45l-4.48-4.48a1.53 1.53 0 012.16-2.16l2.28 2.28A18.92 18.92 0 0023.73 3.05c-.84 0-1.52-.68-1.52-1.52zm5.6 38.25c0 .84-.69 1.53-1.53 1.53A21.97 21.97 0 014.3 20.08l-1.7 1.7a1.53 1.53 0 11-2.16-2.16l4.48-4.49c.33-.32.76-.47 1.19-.44.43-.03.86.12 1.19.44l4.48 4.49a1.53 1.53 0 01-2.16 2.16L7.35 19.5a18.92 18.92 0 0018.92 18.75c.84 0 1.52.68 1.52 1.53z' fill='#E74C3C' /></svg>
+</div>
+</main>
+<footer class='file-item-footer'>
+<div class='file-name'>Uploading...</div>
+</footer>
+</div>
+</div>
+</div>
+<div class="sticky-panel download-container hidden">
+<div class="download-wrapper">
+<div class="other-actions">
+<strong>Do more conversions with the result files.</strong>
+<div class="chain" title="@*TODO: Translate Do more with your PDF:*@Do more conversions with the result files." data-template-converter="<a class='icon-left'></a>">
+</div>
+</div>
+<div class="brand-btn-container brand-color">
+<a class="btn-wrapper download-btn" download href="#">
+<div class="button-icon">
+<svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.94.97a.97.97 0 011.94 0V17.8l1.3-1.3a.97.97 0 111.37 1.38l-2.85 2.84c-.21.21-.49.3-.76.29a.97.97 0 01-.75-.29l-2.85-2.84a.97.97 0 111.37-1.38l1.23 1.23V.97zm13.08 10.67c.52 0 .95.42.95.94v7.55A5.87 5.87 0 0120.09 26H5.87A5.87 5.87 0 010 20.13v-7.55a.94.94 0 011.89 0v7.55c0 2.2 1.78 3.98 3.98 3.98H20.1c2.2 0 3.99-1.78 3.99-3.98v-7.55c0-.52.42-.94.94-.94z" fill="#fff" /></svg>
+</div>
+<span class="btn-label">
+Download
+</span>
+</a>
+<div class="drop-btn download-drop-btn">
+<svg width="11" height="6" viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.14432 5.45623C5.49599 5.7136 5.97384 5.7136 6.32551 5.45623L10.3255 2.52882C11.1058 1.95775 10.7018 0.721851 9.73486 0.721851H1.73496C0.768008 0.721851 0.364071 1.95775 1.14438 2.52882L5.14432 5.45623Z" fill="white" />
+</svg>
+<div class="btn-menu-dropdown hidden">
+<div class="save-to-gdrive-btn menu-dropdown-item disabled">
+<div id="gdrive-btn"></div>
+<svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)" fill="#000">
+<path d="M10.1.97H5.92a.47.47 0 00-.4.7l4.47 7.74h5.27L10.5 1.2a.47.47 0 00-.4-.24zM4.81 2.37l-4.75 8.2a.47.47 0 000 .47l2.02 3.75c.08.14.24.24.4.24h.01c.17 0 .33-.09.41-.23l4.55-7.87L4.8 2.37zM15.93 10.57a.47.47 0 00-.4-.23H6.58l-2.7 4.7h9.63c.17 0 .33-.1.4-.25l2.03-3.75a.47.47 0 000-.47z" />
+</g>
+<defs>
+<clipPath id="clip0">
+<path fill="#fff" d="M0 0h16v16H0z" />
+</clipPath>
+</defs>
+</svg>
+<span>
+Save to Google Drive
+</span>
+</div>
+<div class="save-to-dropbox-btn menu-dropdown-item disabled">
+<svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 .09L0 3.02l4 2.93 4-2.93L4 .09zM4 5.95L0 8.9l4 2.93 4-2.93-4-2.94zM12 5.95L8 8.9l4 2.93 4-2.93-4-2.94zM12 .09L8 3.02l4 2.93 4-2.93-4-2.93zM8 10.05l-4 2.93 4 2.93 4-2.93-4-2.93z" fill="#000" />
+</svg>
+<span>
+Save to Dropbox
+</span>
+</div>
+<div class="remove-btn menu-dropdown-item" title="Remove file from the server. All files are automatically removed after several hours.">
+<svg width="16" height="16" fill="black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs /><path d="M424 64h-88V48a48 48 0 00-48-48h-64a48 48 0 00-48 48v16H88a40 40 0 00-40 40v32a16 16 0 0016 16h384a16 16 0 0016-16v-32a40 40 0 00-40-40zM208 48c0-8.82 7.18-16 16-16h64c8.82 0 16 7.18 16 16v16h-96zM78.36 184a5 5 0 00-4.99 5.24l13.2 277.04A47.94 47.94 0 00134.51 512h242.98a47.94 47.94 0 0047.94-45.72l13.2-277.04a5 5 0 00-5-5.24zM320 224a16 16 0 1132 0v208a16 16 0 11-32 0zm-80 0a16 16 0 1132 0v208a16 16 0 11-32 0zm-80 0a16 16 0 1132 0v208a16 16 0 11-32 0z" /></svg>
+<span>
+Remove
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="error-container hidden">
+<div class="msg-container">
+<div class="message error-panel" data-message="Sorry, unable to convert your file {{fileName}}"></div>
+<a href="/jpg-to-pdf" class="actions btn brand-color">Choose other file</a>
+</div>
+</section>
+</div>
+</div>
+</div>
+<div class="layout-container colored gradient-bottom start-panel">
+<div class="content-wrapper">
+<section class="howto-container">
+<h2>How to Convert JPGs to PDF Free</h2>
+<ol class="howto-grid">
+<li class="howto-column">
+<span>
+Select the JPGs you want to change to PDF, then add the images to our JPG to PDF converter for conversion.
+</span>
+</li>
+<li class="howto-column">
+<span>
+Our online JPG to PDF converter turns your images into multiple PDFs or a single merged PDF in seconds.
+</span>
+</li>
+<li class="howto-column">
+<span>
+Download your converted PDF files and save them to your computer. After converting your images to PDFs, all remaining files will be deleted from our servers.
+</span>
+</li>
+</ol>
+</section>
+</div>
+</div>
+<div class="layout-container start-panel">
+<div class="content-wrapper">
+<section class="features-container">
+<div class="feature">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 40" width="53" height="40" fill="none">
+<defs />
+<path class="change-color" d="M35.758 6.212c0 5.607-5.292 10.152-11.819 10.152-6.527 0-11.818-4.545-11.818-10.152h23.637z" />
+<path fill="#313131" fill-rule="evenodd" d="M10.152 0c.836 0 1.515.678 1.515 1.515 0 9.098 6.65 16.212 14.545 16.212 7.896 0 14.546-7.114 14.546-16.212a1.515 1.515 0 113.03 0c0 10.483-7.732 19.243-17.576 19.243-9.844 0-17.576-8.76-17.576-19.243C8.636.678 9.315 0 10.152 0z" clip-rule="evenodd" />
+<path fill="#313131" fill-rule="evenodd" d="M8.788 1.515C8.788.678 9.466 0 10.303 0h31.97a1.515 1.515 0 010 3.03h-31.97a1.515 1.515 0 01-1.515-1.515zM16.97 38.485c0 .837.678 1.515 1.515 1.515v-3.03c-.837 0-1.515.678-1.515 1.515zm16.818 0V36.97H18.485V40h15.303v-1.515zm0 0V36.97a1.515 1.515 0 110 3.03v-1.515z" clip-rule="evenodd" />
+<path fill="#313131" fill-rule="evenodd" d="M24.394 36.667v-7.88a1.515 1.515 0 113.03 0v7.88a1.515 1.515 0 01-3.03 0zM46.364 7.273c0-.837.678-1.515 1.515-1.515 2.56 0 4.697 2.034 4.697 4.62 0 2.587-2.138 4.622-4.697 4.622a1.515 1.515 0 010-3.03c.955 0 1.666-.747 1.666-1.591 0-.845-.711-1.591-1.666-1.591a1.515 1.515 0 01-1.515-1.515zM6.212 7.273c0-.837-.678-1.515-1.515-1.515C2.137 5.758 0 7.792 0 10.378 0 12.966 2.138 15 4.697 15a1.515 1.515 0 000-3.03c-.955 0-1.667-.747-1.667-1.591 0-.845.712-1.591 1.667-1.591.837 0 1.515-.678 1.515-1.515z" clip-rule="evenodd" />
+</svg>
+<h3>The Best Free JPG to PDF Converter</h3>
+<p>Use our image to PDF converter online free and get access to a suite of other useful conversion tools, all while keeping your data safe and secure. With support for a variety of image formats, converting your images to PDF is simple.</p>
+</div>
+<div class="feature">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 26" width="40" height="40">
+<defs /><path class="change-color" fill-rule="evenodd" d="M16.55 9.4v13.48H6.23V9.41c0-3.2 2.31-5.8 5.16-5.8s5.16 2.6 5.16 5.8z" clip-rule="evenodd" /><path fill="#313131" fill-rule="evenodd" d="M17.82 7.2v16.85H7.99V7.2c0-2.99 2.28-5.25 4.91-5.25 2.63 0 4.92 2.26 4.92 5.25zm1.95 0V26H6.04V7.2C6.04 3.22 9.1 0 12.9 0c3.8 0 6.87 3.22 6.87 7.2zm1.95 15.2a4.09 4.09 0 012.14 3.6h1.95c0-2.65-1.72-4.9-4.1-5.72v2.12zM4.09 20.28v2.12A4.09 4.09 0 001.95 26H0c0-2.65 1.71-4.9 4.09-5.72zM12.9 9.06a1.02 1.02 0 100-2.05 1.02 1.02 0 000 2.05zm1.03 4.23a1.02 1.02 0 11-2.05 0 1.02 1.02 0 012.05 0zm-1.03 6.38a1.02 1.02 0 100-2.04 1.02 1.02 0 000 2.04z" clip-rule="evenodd" />
+</svg>
+<h3>Get a subscription</h3>
+<p>When you purchase a monthly, annual, or unlimited membership, you gain access to exclusive perks like unlimited file sizes and limitless access to our JPG to PDF converter and other tools. You also get added benefits like the ability to convert multiple images to PDF at the same time. Alternatively, you can keep using our JPG to PDF converter online free.</p>
+</div>
+<div class="feature">
+<svg width="35" height="40" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.602325 14.6564H9.47491C14.9978 14.6564 19.4749 19.1335 19.4749 24.6564V24.8958H0.602325V14.6564Z" class="change-color" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.5946 2.00772C8.24037 2.00772 5.52124 4.72686 5.52124 8.08108C5.52124 8.6355 5.07179 9.08494 4.51737 9.08494C3.96296 9.08494 3.51351 8.6355 3.51351 8.08108C3.51351 3.61802 7.13154 0 11.5946 0C16.0577 0 19.6757 3.61802 19.6757 8.08108C19.6757 8.6355 19.2262 9.08494 18.6718 9.08494C18.1174 9.08494 17.668 8.6355 17.668 8.08108C17.668 4.72686 14.9488 2.00772 11.5946 2.00772ZM20.0772 13.0502H3.01158C2.45717 13.0502 2.00772 13.4996 2.00772 14.0541V22.9884C2.00772 23.5428 2.45717 23.9923 3.01158 23.9923H20.0772C20.6316 23.9923 21.0811 23.5428 21.0811 22.9884V14.0541C21.0811 13.4996 20.6316 13.0502 20.0772 13.0502ZM3.01158 11.0425C1.34833 11.0425 0 12.3908 0 14.0541V22.9884C0 24.6517 1.34833 26 3.01158 26H20.0772C21.7405 26 23.0888 24.6517 23.0888 22.9884V14.0541C23.0888 12.3908 21.7405 11.0425 20.0772 11.0425H3.01158ZM12.749 18.5714C12.749 19.2367 12.2097 19.7761 11.5444 19.7761C10.8791 19.7761 10.3398 19.2367 10.3398 18.5714C10.3398 17.9061 10.8791 17.3668 11.5444 17.3668C12.2097 17.3668 12.749 17.9061 12.749 18.5714ZM14.7568 18.5714C14.7568 20.3456 13.3185 21.7838 11.5444 21.7838C9.77027 21.7838 8.33205 20.3456 8.33205 18.5714C8.33205 16.7973 9.77027 15.3591 11.5444 15.3591C13.3185 15.3591 14.7568 16.7973 14.7568 18.5714Z" fill="#313131" />
+</svg>
+<h3>Lots of tools</h3>
+<p>In addition to our image to PDF converter, we offer access to a plethora of PDF editing tools to compress, merge, split, and rotate your PDFs. With access to these tools, working with PDF files is a breeze.</p>
+</div>
+<div class="feature">
+<svg width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.2038 1.5395C18.0715 -0.475409 20.9283 -0.475405 21.796 1.5395L25.7977 10.8318L35.8719 11.7662C38.0563 11.9688 38.9391 14.6858 37.291 16.1337L29.69 22.811L31.9145 32.6808C32.3968 34.8209 30.0856 36.5001 28.1992 35.3801L19.4999 30.2146L10.8006 35.3801C8.91425 36.5001 6.60301 34.8209 7.08536 32.6808L9.30981 22.811L1.70887 16.1337C0.0607143 14.6858 0.943533 11.9688 3.12796 11.7662L13.2021 10.8318L17.2038 1.5395ZM19.4999 3.79245L15.84 12.2911C15.4781 13.1315 14.6859 13.7071 13.7748 13.7916L4.5611 14.6461L11.5128 20.7531C12.2003 21.3571 12.5029 22.2883 12.3017 23.181L10.2672 32.2078L18.2235 27.4835C19.0103 27.0163 19.9895 27.0163 20.7763 27.4835L28.7326 32.2078L26.6981 23.181C26.497 22.2883 26.7995 21.3571 27.487 20.7531L34.4387 14.6461L25.2251 13.7916C24.3139 13.7071 23.5217 13.1315 23.1598 12.2911L19.4999 3.79245Z" fill="#313131" />
+<path class="change-color" d="M19.5 9.00006L21.9687 16.1022L29.4861 16.2554L23.4944 20.7979L25.6718 27.9947L19.5 23.7001L13.3283 27.9947L15.5056 20.7979L9.51392 16.2554L17.0313 16.1022L19.5 9.00006Z" fill="#FEE7E5" />
+</svg>
+<h3>256-bit SSL encryption</h3>
+<p>We are committed to keeping your data and information safe. In stride with this commitment, we encrypt all uploaded files using 256-Bit SSL Encryption. In short, that means unauthorized third parties can’t crack the encryption and therefore can’t interpret your data. We’ll never sell or give your information to any third parties.</p>
+</div>
+<div class="feature">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 28 26" width="42" height="40">
+<defs /><rect width="21.95" height="13.64" x="1.58" y="3.86" class="change-color" rx="6.82" /><path fill="#313131" fill-rule="evenodd" d="M24.32 1.98H2.97a.99.99 0 00-1 .99v13.05c0 .54.45.98 1 .98h21.35c.55 0 .99-.44.99-.98V2.97a.99.99 0 00-1-1zM2.97 0A2.97 2.97 0 000 2.97v13.05a2.97 2.97 0 002.97 2.96h21.35a2.97 2.97 0 002.97-2.96V2.97A2.97 2.97 0 0024.32 0H2.97zM7.7 25.01c0-.54.44-.99.99-.99h10.08a.99.99 0 110 1.98H8.7a.99.99 0 01-.99-.99zM10.87 9.5a2.77 2.77 0 015.5-.46.99.99 0 00-.33 1.9l1.91.8a.99.99 0 001.3-.53l.8-1.91a.99.99 0 00-1.78-.85 4.75 4.75 0 10-4.63 5.8.99.99 0 100-1.98 2.77 2.77 0 01-2.77-2.77z" clip-rule="evenodd" />
+</svg>
+<h3>Files are automatically deleted</h3>
+<p>After using our JPG to PDF converter online, you’ll have three hours to download and save your converted PDF files. After three hours, we’ll automatically delete your files from our servers to ensure that your sensitive information remains safe.</p>
+</div>
+<div class="feature">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 24" width="44" height="40">
+<defs /><path class="change-color" d="M17.95 2.23l4.5 4.5-1.8 1.8-4.5-4.5z" /><path fill="#313131" fill-rule="evenodd" d="M18.4 2.56L16.67 4.3l5.04 5.04 1.73-1.73-5.04-5.04zm.75-2.25a1.06 1.06 0 00-1.5 0l-3.23 3.23a1.06 1.06 0 000 1.5l2.55 2.56L12.56 12 6.98 6.43a4.25 4.25 0 00-.66-5.16 1.06 1.06 0 10-1.5 1.5 2.12 2.12 0 01-3 3 1.06 1.06 0 10-1.5 1.5 4.25 4.25 0 005.15.66l5.59 5.59-8.4 8.4a1.06 1.06 0 001.5 1.5l8.4-8.4 8.33 8.33a1.06 1.06 0 101.5-1.5l-8.33-8.33 4.42-4.42 2.48 2.48c.41.41 1.08.41 1.5 0l3.23-3.23c.41-.42.41-1.09 0-1.5L19.15.3z" clip-rule="evenodd" />
+</svg>
+<h3>Convert images to PDF from anywhere</h3>
+<p>If you have Internet access, you can use our image to PDF converter online free, so you can convert JPG into PDF anytime you need to. Our image to PDF converter supports any device and operating system, including Windows, Mac, and Linux, so you can use our suite of tools from any device.</p>
+</div>
+</section>
+</div>
+</div>
+<div class="start-panel layout-container ">
+<div class="content-wrapper">
+<section class="menubottom-container">
+<label class="title">Maximize your productivity with unlimited access to our PDF tools</label>
+<div class="converter-menu bottom">
+<a class="img-word-to-pdf " href="/word-to-pdf" tabindex="1">
+<span>
+Word to PDF
+</span>
+</a>
+<a class="img-excel-to-pdf " href="/excel-to-pdf" tabindex="1">
+<span>
+Excel to PDF
+</span>
+</a>
+<a class="img-powerpoint-to-pdf " href="/ppt-to-pdf" tabindex="1">
+<span>
+PowerPoint to PDF
+</span>
+</a>
+<a class="img-jpg-to-pdf " href="/jpg-to-pdf" tabindex="1">
+<span>
+JPG to PDF
+</span>
+</a>
+<a class="img-openoffice-to-pdf " href="/odt-to-pdf" tabindex="1">
+<span>
+OpenOffice to PDF
+</span>
+</a>
+<a class="img-ebook-to-pdf " href="/epub-to-pdf" tabindex="1">
+<span>
+eBooks to PDF
+</span>
+</a>
+<a class="img-iworks-to-pdf " href="/pages-to-pdf" tabindex="1">
+<span>
+iWorks to PDF
+</span>
+</a>
+<a class="img-pdf-to-word " href="/pdf-to-word" tabindex="1">
+<span>
+PDF to Word
+</span>
+</a>
+<a class="img-pdf-to-excel " href="/pdf-to-excel" tabindex="1">
+<span>
+PDF to Excel
+</span>
+</a>
+<a class="img-pdf-to-powerpoint " href="/pdf-to-ppt" tabindex="1">
+<span>
+PDF to Powerpoint
+</span>
+</a>
+<a class="img-pdf-to-jpg " href="/pdf-to-jpg" tabindex="1">
+<span>
+PDF to JPG
+</span>
+</a>
+<a class="img-pdf-to-png " href="/pdf-to-png" tabindex="1">
+<span>
+PDF to PNG
+</span>
+</a>
+<a class="img-pdf-merge " href="/merge-pdf" tabindex="1">
+<span>
+Merge PDF
+</span>
+</a>
+<a class="img-pdf-split " href="/split-pdf" tabindex="1">
+<span>
+Split PDF
+</span>
+</a>
+<a class="img-pdf-protect " href="/protect-pdf" tabindex="1">
+<span>
+Protect PDF
+</span>
+</a>
+<a class="img-pdf-converter " href="/" tabindex="1">
+<span>
+PDF Converter
+</span>
+</a>
+<a class="img-pdf-compress " href="/compress-pdf" tabindex="1">
+<span>
+Compress PDF
+</span>
+</a>
+<a class="img-pdf-delete-pages hidden" href="/delete-pdf-pages" tabindex="1">
+<span>
+Delete PDF Pages
+</span>
+</a>
+<a class="img-rotate-pdf hidden" href="/rotate-pdf" tabindex="1">
+<span>
+Rotate PDF
+</span>
+</a>
+<a class="img-dots js-show-all-converters" href="javascript:void(0)">
+<span>
+All tools
+</span>
+</a>
+</div>
+<div class="description-panel">
+</div>
+</section>
+</div>
+</div>
+<form class="dialog password-input-form hidden" action="/jpg-to-pdf" method="post">
+<div class="input-group">
+<label class="caption" for="password_input" data-text-req="Password required for {{fileName}} file" data-text-bad="Provided incorrect password for {{fileName}} file"></label>
+<input class="password-input margin-1em" id="password_input" type="password" placeholder="Password" required autocomplete="off" />
+</div>
+<div class="actions">
+<button type="submit" class="ok btn btn-blue brand-color">Enter</button>
+</div>
+</form>
+<div class="gray-overlay hidden"></div>
+</main>
+<footer class="layout-footer start-panel">
+<div class="layout-container">
+<nav class="content-wrapper footer-grid">
+<div class="column">
+<label class="title">Member area</label>
+<ul>
+<li>
+<a href="/a/si">Sign In</a>
+</li>
+<li>
+<a href="/membership">Sign up</a>
+</li>
+<li>
+<a href="/a/fp">Forgot password?</a>
+</li>
+</ul>
+</div>
+<div class="column">
+<label class="title">PDF Converter</label>
+<ul>
+<li>
+<a href="/blog">Blog</a>
+</li>
+</ul>
+</div>
+<div class="column">
+<label class="title">Company</label>
+<ul>
+<li>
+<a href="/terms">Terms and Privacy</a>
+</li>
+<li>
+<a href="https://www.convertapi.com?ref=pc">Developers API</a>
+</li>
+</ul>
+</div>
+<div class="column">
+<label class="title">Support</label>
+<ul>
+<li>
+<a href="https://help.freepdfconvert.com">FAQ</a>
+</li>
+<li>
+<a href="https://help.freepdfconvert.com">HelpDesk</a>
+</li>
+<li>
+<a href="https://help.freepdfconvert.com">Contact Us</a>
+</li>
+</ul>
+</div>
+<div class="column social">
+<div class="logo-wrapper">
+<a class="logo img-logo" href="/">
+<svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path class="brand-color" fill-rule="evenodd" clip-rule="evenodd" d="M0 3.58537C0 1.60522 1.57657 0 3.52136 0H13.5824C15.5272 0 17.1037 1.60522 17.1037 3.58537V13.3171L14.0854 10.2439V3.58537C14.0854 3.30249 13.8602 3.07317 13.5824 3.07317H3.52136C3.24353 3.07317 3.01831 3.30249 3.01831 3.58537V17.4146C3.01831 17.6975 3.24353 17.9268 3.52136 17.9268H8.55187H13.5824C13.8602 17.9268 14.0854 17.6975 14.0854 17.4146V14.9779L20 21H13.5824H8.55187H3.52136C1.57657 21 0 19.3948 0 17.4146V3.58537Z" fill="#E74C3C" />
+</svg>
+<span class="logo-text">PDF Converter</span>
+</a>
+</div>
+<div class="counter-wrapper" dir="ltr">
+<div id="convert-counter" data-template="{0} conversions since 2005!"></div>
+</div>
+<div class="social-icons">
+<a href="https://twitter.com/PDF__Converter" target="_blank">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" fill="none">
+<defs /><path class="brand-color" d="M23.643 2.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 002.048-2.578 9.3 9.3 0 01-2.958 1.13 4.66 4.66 0 00-7.938 4.25 13.229 13.229 0 01-9.602-4.868 4.66 4.66 0 001.442 6.22 4.647 4.647 0 01-2.11-.583v.06a4.66 4.66 0 003.737 4.568 4.693 4.693 0 01-2.104.08 4.661 4.661 0 004.352 3.234 9.349 9.349 0 01-5.786 1.995 9.5 9.5 0 01-1.112-.065 13.176 13.176 0 007.14 2.093c8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602a9.47 9.47 0 002.323-2.41l.002-.003z" />
+</svg>
+</a>
+<a href="https://www.facebook.com/freepdfconvert" target="_blank">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none">
+<defs /><path class="brand-color" fill-rule="evenodd" d="M0 12.067C0 18.033 4.333 22.994 10 24v-8.667H7V12h3V9.333c0-3 1.933-4.666 4.667-4.666.866 0 1.8.133 2.666.266V8H15.8c-1.467 0-1.8.733-1.8 1.667V12h3.2l-.533 3.333H14V24c5.667-1.006 10-5.966 10-11.933C24 5.43 18.6 0 12 0S0 5.43 0 12.067z" clip-rule="evenodd" />
+</svg>
+</a>
+<a href="https://www.linkedin.com/company/best-pdf-converter" target="_blank">
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none">
+<defs /><path class="brand-color" fill-rule="evenodd" d="M0 1.838A1.838 1.838 0 011.838 0H20.16A1.836 1.836 0 0122 1.838V20.16A1.838 1.838 0 0120.161 22H1.838A1.839 1.839 0 010 20.161V1.838zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634 3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8-1.515 0-2.145 1.089-2.145 2.8v5.106H8.708V8.388zm-5.5 10.403h3.208V8.25H3.208V18.791zM6.875 4.812a2.063 2.063 0 11-4.125.09 2.063 2.063 0 014.125-.09z" clip-rule="evenodd" />
+</svg>
+</a>
+</div>
+</div>
+</nav>
+</div>
+<div class="footer-bottom">
+<div class="layout-container">
+<div class="content-wrapper">
+<div class="copyright">
+&#xA9; 2021 Baltsoft
+</div>
+<div class="language">
+<a class="language-button" href="#modal=selectlanguage">
+<span>
+English
+</span>
+<span class="icon"></span>
+</a>
+<div class="modal-overlay hidden" id="selectlanguage">
+<div class="modal-body">
+<div class="modal-header">
+<span class="h1">Select your language</span>
+<svg class="js-close-modal" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><defs /><path stroke="#313131" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 22a10 10 0 100-20 10 10 0 000 20zM15 9l-6 6M9 9l6 6" /></svg>
+</div>
+<div class="modal-content">
+<div class="language-wrapper" dir="ltr">
+<ul>
+<li class="active"><a href="/">English</a></li>
+<li class=""><a href="/ar">&#x627;&#x644;&#x639;&#x631;&#x628;&#x64A;&#x629;</a></li>
+<li class=""><a href="/da">Dansk</a></li>
+<li class=""><a href="/de">Deutsch</a></li>
+<li class=""><a href="/es">Espa&#xF1;ol</a></li>
+<li class=""><a href="/fr">Fran&#xE7;ais</a></li>
+<li class=""><a href="/he">&#x5E2;&#x5D1;&#x5E8;&#x5D9;&#x5EA;</a></li>
+<li class=""><a href="/hi">&#x939;&#x93F;&#x928;&#x94D;&#x926;&#x940;</a></li>
+<li class=""><a href="/id">Indonesia</a></li>
+<li class=""><a href="/it">Italiano</a></li>
+<li class=""><a href="/ja">&#x65E5;&#x672C;&#x8A9E;</a></li>
+<li class=""><a href="/lt">Lietuvi&#x173;</a></li>
+<li class=""><a href="/no">Norsk</a></li>
+<li class=""><a href="/pl">Polski</a></li>
+<li class=""><a href="/pt">Portugu&#xEA;s</a></li>
+<li class=""><a href="/ru">&#x420;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;</a></li>
+<li class=""><a href="/sv">Svenska</a></li>
+<li class=""><a href="/tr">T&#xFC;rk&#xE7;e</a></li>
+<li class=""><a href="/uk">&#x423;&#x43A;&#x440;&#x430;&#x457;&#x43D;&#x441;&#x44C;&#x43A;&#x430;</a></li>
+<li class=""><a href="/vi">Ti&#x1EBF;ng Vi&#x1EC7;t</a></li>
+<li class=""><a href="/zh-cn">&#x4E2D;&#x6587;&#xFF08;&#x4E2D;&#x56FD;&#xFF09;</a></li>
+<li class=""><a href="/zh-tw">&#x4E2D;&#x6587;&#xFF08;&#x53F0;&#x7063;&#xFF09;</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<div class="side-panel">
+<div class="panel-content">
+<div class="panel-content-item get-premium">
+<div class="panel-header">
+<img src="/img/promo-background.png" alt="" />
+</div>
+<div class="message"></div>
+<div class="panel-heading">
+Get unlimited access
+</div>
+<a class="btn btn-green js-expand-panel">
+Sign Up now!
+</a>
+<ul class="features-list">
+<li>Unlimited document size</li>
+<li>Convert multiple documents at once</li>
+<li>Instant conversions</li>
+<li>Unlimited access to all our tools</li>
+<li>Use on any computer anywhere</li>
+<li>Secure files with 256-bit SSL Encryption</li>
+<li>Priority support</li>
+</ul>
+</div>
+<div class="panel-content-item nag-wait">
+<div class="fullscr-dialog nag-wait">
+<section class="msg-container">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 29"><defs /><path fill="#313131" d="M14.5 0a.85.85 0 00-.85.85v5.46a.85.85 0 001.7 0V.85A.85.85 0 0014.5 0zM14.5 21.84a.85.85 0 00-.85.85v5.46a.85.85 0 001.7 0v-5.46a.85.85 0 00-.85-.85zM11.14 6.982L8.41 2.254a.85.85 0 10-1.471.85l2.73 4.728a.85.85 0 101.471-.85zM22.06 25.897l-2.73-4.729a.85.85 0 10-1.47.85l2.73 4.728a.85.85 0 101.47-.85zM7.832 9.67L3.103 6.938a.85.85 0 10-.85 1.472l4.73 2.73a.846.846 0 001.16-.311.85.85 0 00-.311-1.16zM26.746 20.59l-4.728-2.73a.85.85 0 10-.85 1.471l4.729 2.73a.846.846 0 001.16-.311.85.85 0 00-.31-1.16zM6.31 13.65H.85a.85.85 0 000 1.7h5.46a.85.85 0 000-1.7zM28.15 13.65h-5.46a.85.85 0 000 1.7h5.46a.85.85 0 000-1.7zM8.143 18.17a.85.85 0 00-1.16-.31l-4.73 2.73a.85.85 0 00.85 1.471l4.73-2.73a.85.85 0 00.31-1.16zM27.058 7.25a.85.85 0 00-1.161-.31l-4.729 2.73a.85.85 0 00.85 1.47l4.729-2.73a.85.85 0 00.31-1.16zM10.83 20.857a.85.85 0 00-1.161.311l-2.73 4.729a.85.85 0 101.471.85l2.73-4.73a.85.85 0 00-.31-1.16zM21.75 1.943a.85.85 0 00-1.16.31l-2.73 4.73a.85.85 0 101.47.849l2.73-4.729a.85.85 0 00-.31-1.16z" /></svg>
+<div class="message"></div>
+<div class="panel-heading">
+Get unlimited access to all our tools!
+</div>
+<a class="btn btn-green js-expand-panel">
+Get unlimited access
+</a>
+<ul class="features-list">
+<li>Unlimited document size</li>
+<li>Convert multiple documents at once</li>
+<li>Instant conversions</li>
+<li>Unlimited access to all our tools</li>
+<li>Use on any computer anywhere</li>
+<li>Secure files with 256-bit SSL Encryption</li>
+<li>Priority support</li>
+</ul>
+</section>
+</div>
+</div>
+</div>
+<div class="panel-pricing">
+<div class="pricing-heading">
+Select your premium membership
+</div>
+<div class="prices">
+<a class="price monthly" href="https://checkout.paddle.com/checkout/custom/eyJ0IjoiMSBtb250aCIsImkiOiJodHRwczpcL1wvcGFkZGxlLnMzLmFtYXpvbmF3cy5jb21cL3VzZXJcLzE2NTEzXC9TNW53WVlXMVJ0R2VXNWNxVFBZQV9sb2dvLW9yZGVyLXBhZ2UucG5nIiwiciI6Imh0dHBzOlwvXC93d3cuZnJlZXBkZmNvbnZlcnQuY29tXC9jaGVja291dFwvb3JkZXItY29tcGxldGVkP2NoZWNrb3V0X2hhc2g9e2NoZWNrb3V0X2hhc2h9IiwiY20iOiJUaGUgbWVtYmVyc2hpcCBmb3Igd3d3LmZyZWVwZGZjb252ZXJ0LmNvbSIsInJlIjoxLCJwIjo2NDIyNzgsImFsIjowLCJoIjoiQXBwVmVyc2lvbj1iIiwieSI6IiIsInEiOjAsImQiOjEsImEiOltdLCJ2IjoiMTY1MTMiLCJkdyI6ZmFsc2UsInMiOiIwOGI1NTZjNDBkNDcwYTk0MjU3MThiZDZjYzI4N2Q0MjBhNTk0MTA0ZDM2MTk1ODdjNGY0NjgzNzMzODZjZDY1MWQxNDJjOWU4OTUxNmNiZTQyMTI2MWUwMjEwOTc0N2UzNzU5Y2I0ZDZmNTI3OGU4ZjI1YjkyYmY1ZDkzN2ZlMSJ9" data-product-name="1 month" data-product-id="642278" data-title="1 month" data-passthrough="" data-message="">
+<div class="duration"><span class="icon"></span><span class="text">1 month</span></div>
+<div class="amount"></div>
+<div class="period">monthly</div>
+<div class="btn">
+<span>
+Sign Up
+</span>
+</div>
+</a>
+<a class="price one-time" href="https://checkout.paddle.com/checkout/custom/eyJ0IjoiTGlmZXRpbWUiLCJpIjoiaHR0cHM6XC9cL3BhZGRsZS5zMy5hbWF6b25hd3MuY29tXC91c2VyXC8xNjUxM1wvUGJDR3RGVk9RVHVPZzV3QTNicVVfbm4yLnBuZyIsInIiOiJodHRwczpcL1wvd3d3LmZyZWVwZGZjb252ZXJ0LmNvbVwvY2hlY2tvdXRcL29yZGVyLWNvbXBsZXRlZD9jaGVja291dF9oYXNoPXtjaGVja291dF9oYXNofSIsImNtIjoiVGhlIG1lbWJlcnNoaXAgZm9yIHd3dy5mcmVlcGRmY29udmVydC5jb20iLCJyZSI6MSwicCI6NjM0Mzc3LCJjYyI6eyJBUlMiOiI4MDAwIiwiQVVEIjoiMTM5IiwiQlJMIjoiNjAwIiwiQ0FEIjoiMTI5IiwiQ0hGIjoiOTAiLCJDTlkiOiI3MDAiLCJDWksiOiIyNTAwIiwiREtLIjoiNjAwIiwiRVVSIjoiOTkiLCJHQlAiOiI5OSIsIkhLRCI6IjgwMCIsIkhVRiI6IjMwMDAwIiwiSUxTIjoiNDAwIiwiSU5SIjoiMzk5OSIsIkpQWSI6IjEwMDAwIiwiS1JXIjoiMTExMTExIiwiTVhOIjoiMjAwMCIsIk5PSyI6IjkwMCIsIk5aRCI6IjE1MCIsIlBMTiI6IjQwMCIsIlJVQiI6IjgwMDAiLCJTRUsiOiI5MDAiLCJTR0QiOiIxMzkiLCJUSEIiOiIzMDAwIiwiVFJZIjoiODAwIiwiVFdEIjoiMzAwMCIsIlVBSCI6IjMwMDAiLCJVU0QiOiI5OSIsIlpBUiI6IjE2OTkifSwiaCI6IkFwcFZlcnNpb249YiIsInkiOiIiLCJxIjoxLCJkIjoxLCJhIjpbXSwidiI6IjE2NTEzIiwiZHciOmZhbHNlLCJzIjoiZmQ3MGZmYzg3NGVkNDI3YjJkNDVjODQwMjU4MWMzNDRjZTFmNWM2NjMyYzk1ZGUyZTJjNTc4MjBmMjg2YTFhMjdhY2VlZTQyMGNiODYxY2ExMWM0MDM2OTcwMDFiODI2NGI5NTJiMzBmMzQ1YTBlMWVhOTZmNjM5MTM1NGYxZjMifQ==" data-product-name="Lifetime" data-product-id="634377" data-title="Lifetime" data-passthrough="" data-message="">
+<div class="duration"><span class="icon"></span><span class="text">Lifetime</span></div>
+<div class="amount"></div>
+<div class="period">one-time</div>
+<div class="btn">
+<span>
+Sign Up
+</span>
+</div>
+</a>
+</div>
+</div>
+<div class="close-panel" title="Close">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><defs /><path stroke="#313131" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 22a10 10 0 100-20 10 10 0 000 20zM15 9l-6 6M9 9l6 6" /></svg>
+</div>
+</div>
+<script async defer id="jquery" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" crossorigin="anonymous"></script>
+<script defer src="/app.js?v=AKZzmLtKHgh-aUd-mAdi-3yI3cLv4KHL7wRGJmQVrMA"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.7.570/pdf.min.js"></script>
+</body>
+</html>
